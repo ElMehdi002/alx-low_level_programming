@@ -1,21 +1,27 @@
 #include <stdio.h>
+
 /**
-* main - Write a program that prints all possible combinations of single-digit numbers
-*
-* Return: Always 0 (Success)
-*/
+ * main - Print all single digit numbers using only putchar
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-    int i;
-    for (i = 0; i <= 9 ; i++) {
-        putchar(i);
-        if (i != 9) {
-            putchar(',');
-            putchar(' ');
-        }
-    }
+	int digit;
 
-    putchar('\n');
+	for (digit = '0'; digit <= '9'; digit++)
+	{
+		putchar(digit);
 
-    return 0;
+		if (digit != '9')
+		{
+			putchar(',');
+			putchar(' ');
+		}
+	}
+
+	putchar('\n');
+
+	return (0);
 }
+
