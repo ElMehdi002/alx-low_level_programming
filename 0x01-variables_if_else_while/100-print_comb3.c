@@ -17,6 +17,7 @@ int main(void)
 			printf("%d%d", i1, i2);
 
 			if (i1 != 9 || i2 != 8)
+				putchar(',');
 				putchar(' ');
 		}
 	}
