@@ -14,9 +14,10 @@ int main(void)
 	{
 		for (i2 = i1 + 1; i2 <= 9; i2++)
 		{
-			printf("%d%d", i1, i2);
+			putchar(i1 + '0');
+			putchar(i2 + '0');
 
-			if (i1 != 9 || i2 != 8)
+			if (i1 != 8 || i2 != 9)
 				putchar(',');
 				putchar(' ');
 		}
