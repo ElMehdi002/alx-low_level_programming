@@ -7,25 +7,22 @@
  */
 int main(void)
 {
-    int i1;
-    int i2;
+	int i1;
+	int i2;
 
-    for (i1 = 0; i1 <= 9; i1++)
-    {
-        for (i2 = i1; i2 <= 9; i2++)
-        {
-            printf("%d%d", i1, i2);
+	for (i1 = 0; i1 <= 9; i1++)
+	{
+		for (i2 = i1 + 1; i2 <= 9; i2++)
+		{
+			printf("%d%d", i1, i2);
 
-            if (i1 != 9 || i2 != 9)
-            {
-                putchar(',');
-		putchar(' ');
-            }
-        }
-    }
+			if (i1 != 9 || i2 != 8)
+				putchar(' ');
+		}
+	}
 
-    putchar('\n');
+	putchar('\n');
 
-    return 0;
+	return (0);
 }
 
