@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_sign - Detemines if the input number greater,
- * equal or less then zero.
+ * print_sign - Detemines if the input number
+ * greater equal or less then zero.
  *
  * @n: the input number as an integer.
  *
