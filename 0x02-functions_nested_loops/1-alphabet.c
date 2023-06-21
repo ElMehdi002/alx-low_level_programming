@@ -5,11 +5,9 @@ include "main.h"
 * Return: Always 0 (success)
 */
 void print_alphabet(void)
-{char c = 'a';
-	while(c <= 'z'){
+	int c;
+	for (c = 97; c <= 122; c++){
 		_putchar(c);
-		c++;
 	}
 	_putchar('\n');
-return (0);
-}
+	return (0);
