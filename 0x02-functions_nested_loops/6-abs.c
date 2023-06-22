@@ -4,7 +4,7 @@
  * @x: integer from which to get an absolute value
  * Return: Void.
  */
-int _abs(int x);
+int _abs(int x)
 {
 	if (x >= 0)
 	{
