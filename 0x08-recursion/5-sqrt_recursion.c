@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * _sqrt_recursion - find natural square root
- * @n: int
- * @val: square root
- * return: int
+ * _sqrt_recursion - Find the natural square root of a number.
+ * @n: The number to find the square root of.
+ * Return: The square root as an integer.
  */
+
 int square(int n, int val);
 int _sqrt_recursion(int n)
 {
@@ -13,10 +13,10 @@ int _sqrt_recursion(int n)
 }
 
 /**
- * square - find square root
- * @n: int to find square root
- * @val: square root
- * return : int
+ * square - Helper function to find the square root recursively.
+ * @n: The number to find the square root of.
+ * @val: The current value being checked as a possible square root.
+ * Return: The square root as an integer if found, or -1 if not.
  */
 
 int square(int n, int val)
